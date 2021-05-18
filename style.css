@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	padding:0px; 
+	margin:0px;
+
+} 
+body{
+  background: #28122c;
+  font-size:16px;
+}
+h1 h2 h3 h4 h5 h6{
+  font-family: 'Noto Sans HK', sans-serif;
+	font-weight:700px;
+}
+section{
+
+	padding:80px 0px;
+}
+#header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: 0.6s;
+  
+}
+.container{
+  width: 1140px;
+  margin: auto;
+ ;
+
+}
+.topWrapper{
+  overflow: hidden;
+  width: 100%;
+  transition: 0.6s;
+}
+.logo {
+    float: left;
+    margin-top: 24px;
+    color: #00ffc4;
+    font-size: 35px;
+    word-spacing: -1px;
+    width: 200px;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+}
+#header.fixedNav{
+    padding:2px -52px;
+    background:rgb(36, 131, 86);
+    transition: 0.6s;
+    position:fixed;
+    border-radius: 150px;
+    /* border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px; */
+}
+
+
+ul.mainMenuItem li {
+    float: left;
+}
+.menu {
+    width: 920px;
+    float: right;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+    margin-left: -11px;
+}
+
+ul.mainMenuItem li {
+    float: left;
+}
+ul.mainMenuItem li a {
+    padding: 50px 19px;
+    text-decoration: none;
+    color: #e2e0e0;
+    font-size: 20px;
+    transition: 0.6s;
+    font-weight: 700;
+    display: block;
+}
+ul.mainMenuItem li a:hover {
+    color: #d5fb00;
+    text-shadow: 1px 1px 30px rgb(0, 0, 0);
+}
+section#homeSlider {
+    width: 100%;
+}
+
+.homeWrapper {
+    overflow: hidden;
+}
+
+.leftImage {
+    float: left;
+    width: 480px;
+    margin-left: -20px;
+    margin-top: 60px;
+}
+.rightContent {
+    float: right;
+    width: 520px;
+}
+.meBtn {
+    margin-top: 70px;
+}
+.meBtn button {
+    font-size: 19px;
+    padding: 11px 24px;
+    background: #2CA46D;
+    color: white;
+    border: none;
+    margin-bottom: 32px;
+    outline: none;
+    border-radius: 24px 21px 1px;
+}
+.myContact {
+    color: white;
+    margin-bottom: 30px;
+}
+.myContact h1 {
+    font-size: 50px;
+    word-spacing: 10px;
+    font-weight: 700;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.myContact p {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    font-family: 'Noto Sans HK', sans-serif;
+
+}
+.heAddress p {
+  margin-left: 23px;
+  margin-top: -19px;
+  color: #fafafa;
+	font-family: 'Noto Sans HK', sans-serif;
+
+}
+.heAddress i {
+    color: #fafafa;
+}
+
+.aboutWrapper {
+    overflow: hidden;
+}
+
+.aboutRight {
+    width: 600px;
+    float: left;
+    margin-top: 100px;
+}
+
+.aboutRight h1 {
+    color: #ffebeb;
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.aboutRight p {
+    color: #fdf0f0;
+    word-spacing: 7px;
+    line-height: 25px;
+    margin-bottom: 46px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+button {
+    background: #2ca46d;
+    font-size: 17px;
+    word-spacing: 5px;
+    border: none;
+    border-radius: 45px;
+    outline: none;
+    cursor: pointer;
+    padding: 17px 28px;
+}
+.aboutImg {
+    float: right;
+    width: 530px;
+    margin-top: -3px;
+}
+.socialMedia {
+    overflow: hidden;
+}
+
+.socialMedia ul {
+    margin: 0;
+    padding: 0;
+}
+
+.socialMedia ul li {
+    float: left;
+    list-style: none;
+    margin-right: 14px;
+}
+.socialMedia ul li a{
+		text-align: center;
+		border: 0px;
+		text-transform: uppercase;
+		-webkit-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s cubic-bezier(1, 0.85, 0.25, 1) 0s;
+		margin-right: 10px;
+		font-size: 18px;
+		color: #eee;
+		border-radius: 30px;
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+		display: block;
+		border: 1px solid rgba(255,255,255,0.2);
+}
+.myHead {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 22px;
+    word-spacing: 5px;
+    color: #fafafa;
+    width: 100%;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.myWoWrapper {
+    overflow: hidden;
+}
+
+.singleWork {
+    width: 100%;
+}
+
+.sWorkbox {
+    width: 289px;
+    padding: 50px 35px;
+    background: #2d343e;
+    float: left;
+    margin-right: 21px;
+    margin-bottom: 35px;
+    height: 165px;
+    transition: 0.2s;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+
+.sWorkbox h1 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 31px;
+    font-weight: 800;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+.sWorkbox p {
+    color: white;
+    word-spacing: 3px;
+    font-size: 18px;
+    line-height: 29px;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+.sWorkbox:hover {
+    box-shadow: 7px 25px 20px #20262F;
+}
+.skillsHead {
+    text-align: center;
+    margin-bottom: 85px;
+    color: #fafafa;
+    font-size: 23px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+span {
+    margin-left: 960px;
+}
+span.sk2 {
+    margin-left: 988px;
+}
+
+span.sk3 {
+    margin-left: 920px;
+}
+
+span.sk5 {
+    margin-left: 930px;
+}
+.skillsTitle h2 {
+    color: #fafafa;
+    margin-bottom: 40px;
+    font-size: 25px;
+    position: relative;
+		font-family: 'Noto Sans HK', sans-serif;
+
+}
+
+.skillsTitle h2:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    background: #fb5200;
+    width: 1100px;
+    border-bottom: 3px solid #2ca46d;
+}
+.eduHead {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fafafa;
+    font-size: 26px;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+.educationWrapper {
+    overflow: hidden;
+    margin-right: -48px;
+    margin-left: -30px;
+}
+
+.singleEdu {
+    background: #2d343e;
+    width: 525px;
+    float: left;
+    padding: 27px 30px;
+    font-family: 'Noto Sans HK', sans-serif;
+    margin-right: 24px;
+    margin-bottom: 35px;
+}
+
+.singleEdu h3 {
+    color: #fafafa;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+p.p_class {
+    color: #fafafa;
+    margin-bottom: 18px;
+    word-spacing: 5px;
+}
+
+.singleEdu p {
+    color: #fafafa;
+    word-spacing: 4px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.recHead h1 {
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.workShidiul {
+    width: 100%;
+    float: right;
+}
+
+ul.workMenu {
+    list-style: none;
+    float: right;
+    margin-right: 225px;
+    margin-top: -35px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.workShidiul ul li {
+    float: left;
+    padding: 12px 29px;
+    margin: 17px;
+    font-size: 22px;
+    color: white;
+    border-radius: 60px;
+    border: 2px solid #fafafa;
+    transition: 0.3s;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+.workShidiul ul li:hover {
+    background: #2ca46d;
+    border: none;
+}
+.workWrapper {
+    width: 100%;
+}
+
+.workWrapper img {
+    width: 350px;
+    margin-bottom: 60px;
+    margin-right: 27px;
+    height: 350px;
+}
+.priceHead {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 60px;
+    font-size: 29px;
+		font-family: 'Noto Sans HK', sans-serif;
+
+}
+
+.singlePriceHead h2 {
+    margin-bottom: 30px;
+    color: #fafafa;
+    text-align: center;
+    font-size: 37px;
+		font-family: 'Noto Sans HK', sans-serif;
+}
+.singlePrice {
+    background: #2d343e;
+    width: 333px;
+    float: left;
+    margin-right: 24px;
+    padding: 35px 18px;
+}
+
+.priceLable{
+			color: #fff;
+			background: #2ca46d;
+			font-size: 16px;
+			width: 100px;
+			text-align: center;
+			margin-bottom: 15px;
+			display: block;
+			padding-top: 3px;
+			padding-bottom: 1px;
+			font-family: 'Noto Sans HK', sans-serif;
+			clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.priceWrapper {
+    overflow: hidden;
+    margin-right: -30px;
+    margin-left: -10px;
+}
+.singlePriceHead h3 {
+    color: #fafafa;
+    font-size: 27px;
+    text-align: center;
+}
+
+ul.mainMenuItem li.dropdown a i {
+    margin-left: 9px;
+    font-size: 13px;
+    margin-top: 7px;
+}
+.socialMedia ul li .f_fb:hover {
+    background: #156fcd;
+}
+
+.socialMedia .t_twt:hover {
+    background: #00d0ff;
+}
